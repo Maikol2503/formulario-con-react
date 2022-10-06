@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+:root{
+    --borde:rgba(184, 186, 190, 0.63); ;
+}
+.container{
+    max-width: 1100px;
+    margin: 70px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 40px 60px;
+    border-radius: 10px;
+    
+}
+.formularioContainer{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+} 
+
+.form{
+    width: 430px;
+    /* padding: 60px 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 7px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.imgReact {
+    animation: App-logo-spin infinite 15s linear;
+}
+
+
+}
+
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.nombres{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputNombre{
+ width: 48%;
+}
+
+.signos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.inputSigno{
+    border: 1px solid var(--borde); 
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding: 0px 15px;
+    border-radius: 7px;
+}
+
+.correo{
+    width: 100%;
+    position: relative;
+}
+/* Input */
+input{
+    width: 100%;
+    height: 40px;
+    padding: 15px 10px;
+    font-size: 18px;
+    border: 1px solid var(--borde); 
+    outline: 1px;
+    border-radius: 7px;
+    margin: 10px 0;
+    background-color: rgba(240, 248, 255, 0);
+} input:focus{
+    border: 1px solid var(--borde); 
+}
+
+.alerta{
+    font-size: 12px;
+    color: red;
+}
+.divInput{
+    width: 48%;
+    position: relative;
+    z-index: 1000;
+}
+.input{
+    width: 100%;
+}
+
+.span{
+    position: absolute;
+    z-index: 10;
+    padding: 0 5px;
+    margin-left: 5px;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* lenguages */
+h1{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(43, 43, 43);
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.labelLenguage{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lenguages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labelLenguage p{
+    color: rgb(80, 80, 80);
+}
+.lenguages input{
+   display: none;
+}
+
+.imgLenguage{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 100%;
+    padding: 5px;
+    border: rgb(165, 169, 170) 1px solid;
+    transition: .3s
+} .imgLenguage:hover{
+    border: rgba(22, 37, 54) 1px solid;
+    transition: .3s;
+}
+.azul{
+    background-color: rgb(22, 37, 54);
+    transition: .3s;
+    border: none;
+}
+.rojo{
+    border: 1px solid red;
+}
+
+.boton1{
+    background-color: rgb(0, 131, 131);
+    padding: 10px 15px;
+    margin-top: 40px;
+    border-radius: 7px;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: white;
+    width: 100%;
+}
+
+
+.alerta{
+    color: rgb(255, 0, 34);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
