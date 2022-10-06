@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/formulario-con-react/static/css/main.78330a10.css",
+    "main.js": "/formulario-con-react/static/js/main.9278b792.js",
+    "static/js/787.dad5aad2.chunk.js": "/formulario-con-react/static/js/787.dad5aad2.chunk.js",
+    "static/media/react.png": "/formulario-con-react/static/media/react.a544fd8cf64d82898e91.png",
+    "static/media/svelte.png": "/formulario-con-react/static/media/svelte.954746ef76e53b271a5a.png",
+    "static/media/logo.svg": "/formulario-con-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/formulario-con-react/index.html",
+    "main.78330a10.css.map": "/formulario-con-react/static/css/main.78330a10.css.map",
+    "main.9278b792.js.map": "/formulario-con-react/static/js/main.9278b792.js.map",
+    "787.dad5aad2.chunk.js.map": "/formulario-con-react/static/js/787.dad5aad2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78330a10.css",
+    "static/js/main.9278b792.js"
+  ]
+}
