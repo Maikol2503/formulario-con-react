@@ -1,6 +1,4 @@
-#LINK
-
-https://maikol2503.github.io/formulario-con-react/
+# https://maikol2503.github.io/formulario-con-react/
 
 # Getting Started with Create React App
 
